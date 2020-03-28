@@ -1,13 +1,13 @@
-package com.atguigu.demo0105;
+package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Demo0105Application {
+public class DemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Demo0105Application.class, args);
+        SpringApplication.run(DemoApplication.class, args);
     }
 
 }

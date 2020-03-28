@@ -6,7 +6,6 @@ import javax.persistence.Id;
 import java.util.Date;
 
 public class UmsMember {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
@@ -21,13 +20,6 @@ public class UmsMember {
     private int gender;
     private Date birthday;
     private String city;
-    private String job;
-    private String personalizedSignature;
-    private int sourceType;
-    private int integration;
-    private int growth;
-    private int luckeyCount;
-    private int historyIntegration;
 
     public String getId() {
         return id;
@@ -180,4 +172,12 @@ public class UmsMember {
     public void setHistoryIntegration(int historyIntegration) {
         this.historyIntegration = historyIntegration;
     }
+
+    private String job;
+    private String personalizedSignature;
+    private int sourceType;
+    private int integration;
+    private int growth;
+    private int luckeyCount;
+    private int historyIntegration;
 }
